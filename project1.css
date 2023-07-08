@@ -1,0 +1,46 @@
+body{font-size: 2vw;
+     font-family:verdana,sans-serif;
+     background-image:url(messi9B.jpg);
+     
+
+}
+.heading{text-shadow:3vw 3vw 4vw rgb(44, 41, 41);
+     text-align:center;
+     border-color:rgb(54, 158, 61);
+     border-style:solid;
+     padding: 3vw;
+     color:black;
+}
+.photo{position:relative;
+}
+
+.photo p{ position:absolute;
+opacity: 0.0;
+top: 50%;
+left: 50%;
+transform: translate(-50% ,-50%);
+}
+
+.photo:hover p{ opacity:1.0
+}
+
+.photo:hover img{opacity:0.5
+}
+
+
+.hi1{ text-align:justify;
+float:right;
+color:rgb(238, 34, 34);
+display:flex;
+flex-wrap: wrap;
+background-color: darkkhaki;
+}
+
+.hi2{ color:red;
+     float:left;
+text-align: center;}
+
+
+
+
+
