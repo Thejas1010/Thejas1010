@@ -11,7 +11,22 @@ body{font-size: 2vw;
      padding: 3vw;
      color:black;
 }
+
+.hi1{ text-align:justify;
+float:right;
+color:rgb(238, 34, 34);
+display:flex;
+flex-wrap: wrap;
+background-color: darkkhaki;
+}
+
+.hi2{ color:red;
+     float:left;
+text-align: center;}
+
 .photo{position:relative;
+     background-color: cadetblue;
+     float: right;
 }
 
 .photo p{ position:absolute;
@@ -28,17 +43,9 @@ transform: translate(-50% ,-50%);
 }
 
 
-.hi1{ text-align:justify;
-float:right;
-color:rgb(238, 34, 34);
-display:flex;
-flex-wrap: wrap;
-background-color: darkkhaki;
-}
 
-.hi2{ color:red;
-     float:left;
-text-align: center;}
+
+
 
 
 
